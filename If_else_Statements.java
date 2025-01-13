@@ -2,10 +2,9 @@
 public class If_else_Statements {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		
-		
-		// 1.	Write a program to check if a number is even or odd using an if statement.
+	// 1.	Write a program to check if a number is even or odd using an if statement.
 		
 		int Number = 25;
 		
@@ -18,7 +17,7 @@ public class If_else_Statements {
 		}
 		
 		
-		// 2.	Find the largest of three numbers using nested if-else.
+	// 2.	Find the largest of three numbers using nested if-else.
 		
         int num1 = 10, num2 = 20, num3 = 15;
         
@@ -42,7 +41,7 @@ public class If_else_Statements {
         }
 
 		
-		// 3.  Check if a number is positive, negative, or zero using if-else.
+	// 3.  Check if a number is positive, negative, or zero using if-else.
         
         int num = -5;
         if (num > 0) {
@@ -64,11 +63,7 @@ public class If_else_Statements {
                 } 
                 else {
                     System.out.println(year + " is not a leap year.");
-                }
-
-       // 5. 
-                
-                
+                }     
 
 	}
 
