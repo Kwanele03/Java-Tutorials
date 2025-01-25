@@ -17,16 +17,16 @@ public class ForLoop {
 			 
 		int rows = 5;
 
-        for (int i = 1; i <= rows; i++) {
-          for (int j = 1; j <= rows - i; j++) {
+                for (int i = 1; i <= rows; i++) {
+              for (int j = 1; j <= rows - i; j++) {
                System.out.print(" ");
                }
-           for (int k = 1; k <= 2 * i - 1; k++) {
+            for (int k = 1; k <= 2 * i - 1; k++) {
                 System.out.print("*");
                }
                 System.out.println();
                }    
-         System.out.println();
+          System.out.println();
 		   
 		
 		// 3. Print all even numbers between 1 and 20 using a for loop.
@@ -65,7 +65,7 @@ public class ForLoop {
 		   
 		  // 5. Generate a Fibonacci sequence up to n terms using a for loop.	
 		   
-           int n = 10, first = 0, second = 1;
+                  int n = 10, first = 0, second = 1;
 		         
 		        System.out.print("Fibonacci Series: " + first + ", " + second);
 		           
@@ -78,14 +78,6 @@ public class ForLoop {
 		             second = next;
 		           }
 
+	             }
 
-         
-		                   
-		  
-             
-		                           
-
-
-	}
-
-}
+            }
