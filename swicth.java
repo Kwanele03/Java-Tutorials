@@ -5,7 +5,7 @@ public class swicth {
 		// TODO Auto-generated method stub
 		
 		
-		// 1. Print the day of the week based on a number using a switch statement.
+	// 1. Print the day of the week based on a number using a switch statement.
 		
         int day = 3;
         switch (day) {
@@ -32,12 +32,6 @@ public class swicth {
             default: System.out.println("Invalid operator.");
         }
         
-        
-       // 3. 
-        
-        
-
-
-	}
+    }
 
 }
