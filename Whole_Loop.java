@@ -7,8 +7,6 @@ public class Whole_Loop {
 		
 		
 		// 1. 	Calculate the sum of numbers from 1 to n using a while loop.
-		
-		
 		int n = 10;
 		int sum = 0;
 		
@@ -22,9 +20,8 @@ public class Whole_Loop {
 
 		
 		// 2. Count the number of digits in a number using a while loop.
-
-	     int number = 12345;
-	     int count = 0;
+	       int number = 12345;
+	       int count = 0;
 	      
 	         while (number > 0) {
 	             number /= 10;
@@ -32,51 +29,34 @@ public class Whole_Loop {
 	         }
 	         
 	         System.out.println("Number of digits: " + count);
-		  
-
-		
-		
-		
-		// 3.       Find the greatest common divisor (GCD) of two numbers using a while loop. 
+	
+		// 3. Find the greatest common divisor (GCD) of two numbers using a while loop. 
 		         
 		  int a = 36, b = 60;
 		  
-          while (a != b) {
-              if (a > b) {
+                  while (a != b) {
+                  if (a > b) {
                   a = a - b;
-              } 
-              else {
+                } 
+                else {
                   b = b - a;
-              }
-          }
-          
-          System.out.println("GCD is: " + a);
- 
-		       
-		                 
-		
-		
-		
-		// 4. Calculate the sum of the digits of a number using a while loop.
-		               
-		 int num = 12345;
+               }
+            } 
+           System.out.println("GCD is: " + a);
+	
+	// 4. Calculate the sum of the digits of a number using a while loop.	               
+	 int num = 12345;
          int calculateSum = 0;
          
          while (num > 0) {
         	 calculateSum += num % 10;
              num /= 10;
          }
-         
          System.out.println("Sum of digits: " + calculateSum);
-               
-		                
+
 		
-		
-		
-		
-		// 5.      Simulate a basic login system using a while loop.
-		                    
-		     
+	// 5. Simulate a basic login system using a while loop.
+	     
           String correctUsername = "user";
           String correctPassword = "pass";
           
@@ -96,10 +76,7 @@ public class Whole_Loop {
                   System.out.println("Incorrect username or password. Try again.");
               }
           }
-
-                
-
-		                                 
+	                                 
 	}
 
 }
